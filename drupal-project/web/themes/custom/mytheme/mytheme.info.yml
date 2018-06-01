@@ -1,0 +1,23 @@
+name: super theme
+type: theme
+description: c'est mon premier theme
+core: 8.x
+screenshot: Stewie-vampireduck.png
+
+regions:
+  header: 'Header'
+  content: 'Content'
+  content_top: 'Content Top'
+  content_bottom: 'Content Bottom'
+  sidebar_first: 'Sidebar First'
+  footer: 'Footer'
+  # page_top: 'Page Top'
+  # page_bottom: 'Page Bottom'
+  # the two zones doesn't exist in last version of drupal, i replace this by -> content_top: 'Content Top' content_bottom: 'Content Bottom'
+
+libraries: 
+  - mytheme/global-css
+  - mytheme/fonts
+
+  #  i call mytheme.librairie.yml
+  # for explain the librairies in arial list the first is the name of theme the second is the call block in file libraries.yml

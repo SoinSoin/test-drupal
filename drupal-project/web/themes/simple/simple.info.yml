@@ -1,0 +1,20 @@
+name: Simple theme
+type: theme
+description: essayons un theme jolie
+core: 8.x
+screenshot: simple.jpg
+
+regions:
+  footer: Footer
+  navbar_left: Navbar Left
+  navbar_right: Navbar Right
+  content: Content
+  content_left: Content Left
+  content_right: Content Right
+  content_middle: Content Middle
+
+
+libraries: 
+  - simple/global-css
+  - mytheme/fonts
+
