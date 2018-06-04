@@ -12,8 +12,11 @@ regions:
   content_left: Content Left
   content_right: Content Right
   content_middle: Content Middle
-
-
+  cell1: Cell1
+  cell2: Cell2
+  cell3: Cell3
+  cell4: Cell4
+  streamer: Streamer
 libraries: 
   - simple/global-css
   - mytheme/fonts

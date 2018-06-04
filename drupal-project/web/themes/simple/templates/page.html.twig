@@ -1,4 +1,4 @@
-{#
+{# 
 /**
  * @file
  * Showcase Lite's theme implementation to display a single page.
@@ -26,11 +26,16 @@
    - page.content_left:
    - page.content_right:
    - page.content_middle:
+   - page.cell1:
+   - page.cell2:
+   - page.cell3:
+   - page.cell4:
+   - page.streamer:
  *
  * @see template_preprocess_page()
  * @see html.html.twig
- */
-#}
+ */ #}
+
 
 <nav class="navContainer">
     {% if page.navbar_left %}
@@ -56,16 +61,38 @@
             {{page.content_middle}}
         </div>
     {% endif %}
-    {% if page.content_right %}
-        <div class="content">
-            {{page.content_right}}
-        </div>
-    {% endif %}
 </section>
+
+<section>
+    <div class="row">
+            <div class="cell">
+                {{page.cell1}}
+                <h1>ici</h1>
+            </div>
+            <div class="cell">
+                {{page.cell2}}
+                <h1>ici</h1>
+            </div>
+            <div class="cell">
+                {{page.cell3}}
+                <h1>ici</h1>
+            </div>
+            <div class="cell">
+                {{page.cell4}}
+                <h1>ici</h1>
+            </div>
+    </div>
+    <div class="streamer">
+        {{page.streamer}}
+    </div>
+</section>
+
+
+
 
 <footer>
     {% if page.footer %}
-        <div class="test">
+        <div class="contentFooter">
             {{page.footer}}
         </div>
     {% endif %}
